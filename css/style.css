@@ -1,0 +1,53 @@
+*{ /*assim coloca a fonte em todo o codigo global */
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+body{
+	background-color: #BC8F8F;
+}
+h1{
+	text-align: center; /* alinhamento */
+}
+header{
+	/* menu */
+	/*cor de fundo*/
+	background-color: #000000; 
+	/*cor da letra*/
+	color: #fff;
+	/*altura do texto*/
+	height: 50px;
+}
+/*classes e objetos*/
+#container{
+	/*objeto é chamado por #*/
+	border: 2px solid #000;
+	/*altura*/
+	height: 400px;
+	/*largura*/
+	width: 400px;
+	/* 0 topo e base, sem margem, direta e esqueda é automatico*/
+	margin: 0 auto 0 auto; 
+	display: flex;
+	/*justify-content: center;
+	justify-content: space-around;*/
+	justify-content: space-between;
+	align-items: center; /*centro*/
+	/*align-items: flex-end; final*/
+	/*align-items: flex-start; inicio*/
+	flex-wrap: wrap;
+}
+.box{/*classe é chama por .*/
+	border: 2px solid #000000;
+	background-color: #7FFFD4; 
+	height: 60px;
+	width: 120px;
+}
+#box-1{
+	order: 3;
+}
+#box-2{
+	order: 1;
+}
+#box-3{
+	order: 2;
+}
